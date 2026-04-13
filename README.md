@@ -10,7 +10,7 @@ GitHub repository can be found at `https://github.com/sam-andaluri/machine-learn
 ```text
 machine-learning-project/
 |-- README.md
-|-- latency_prediction.ipynb
+|-- modeling.ipynb
 |-- Machine_Learning_Analysis_Report.md
 |-- Machine_Learning_Analysis_Report.pdf
 |-- requirements.txt
