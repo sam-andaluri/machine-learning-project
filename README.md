@@ -1,6 +1,9 @@
-# Machine Learning Foundations: Inference Latency Prediction
+# Applied Machine Learning: Model Design, Training and Performance Evaluation
 
 This folder contains implementation of **Inference Latency Prediction for Production Diffusion Model Serving** built on Alibaba's `cluster-trace-v2026-GenAI` dataset (Lin et al., 2025).
+
+GitHub repository can be found at `https://github.com/sam-andaluri/machine-learning-project`.
+
 
 ## Directory Structure
 
@@ -12,7 +15,7 @@ machine-learning-project/
 |-- Machine_Learning_Analysis_Report.pdf
 |-- requirements.txt
 |-- data/
-|   `-- cluster-trace-v2026-GenAI/
+|   |-- cluster-trace-v2026-GenAI/
 |       |-- data_trace_processed.csv
 |       |-- qps.csv
 |       |-- pod_gpu_duty_cycle_anon.csv
@@ -25,8 +28,8 @@ machine-learning-project/
 |   |-- xgboost.joblib
 |   |-- xgboost_tuned.joblib
 |   |-- scaler.joblib
-|   `-- feature_columns.txt
-`-- figures/
+|   |-- feature_columns.txt
+|-- figures/
     |-- feature_correlation.png
     |-- predicted_vs_actual.png
     |-- residual_distribution.png
@@ -35,7 +38,7 @@ machine-learning-project/
     |-- confusion_matrix.png
     |-- roc_curve.png
     |-- demand_forecast.png
-    `-- error_over_time.png
+    |-- error_over_time.png
 ```
 
 ## 1. Install `uv`
