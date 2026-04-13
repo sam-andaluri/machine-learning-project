@@ -1,0 +1,17 @@
+predict_type_encoded
+style_type_encoded
+model_encoded
+prompt_length
+negative_prompt_length
+num_images_per_prompt
+num_inference_steps
+num_lora
+avg_lora_scale
+total_prompt_length
+compute_complexity
+has_negative_prompt
+has_lora
+rolling_latency_mean_10
+rolling_latency_mean_50
+rolling_latency_std_10
+model_rolling_latency
